@@ -1,5 +1,5 @@
 # GT NEI Ore Plugin
-This minecraft forge mod is an addon for GregTech5 and NEI and is a client-side mod.
+This minecraft forge mod is an addon for GregTech5 and NEI.
 
 This is the revision for the Pixian and Universe Modpacks
 
