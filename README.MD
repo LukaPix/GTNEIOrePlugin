@@ -1,6 +1,8 @@
 # GT NEI Ore Plugin
 This minecraft forge mod is an addon for GregTech5 and NEI and is a client-side mod.
 
+This is the revision for the Pixian and Universe Modpacks
+
 It adds several NEI plugins for GT5 which shows the detailed information of GregTech's ore generation.  
 These plugins are:
 * Plugin for vein generation (GT5)
