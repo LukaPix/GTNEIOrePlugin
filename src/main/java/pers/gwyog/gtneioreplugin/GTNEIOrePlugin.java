@@ -11,10 +11,10 @@ import net.minecraft.init.Items;
 import pers.gwyog.gtneioreplugin.util.GT5OreLayerHelper;
 import pers.gwyog.gtneioreplugin.util.GT5OreSmallHelper;
 
-@Mod(modid = GTNEIOrePlugin.MODID, name = GTNEIOrePlugin.NAME, version = GTNEIOrePlugin.VERSION, dependencies = "required-after:gregtech;required-after:NotEnoughItems")
+@Mod(modid = GTNEIOrePlugin.MODID, name = GTNEIOrePlugin.NAME, version = GTNEIOrePlugin.VERSION, dependencies = "required-after:galacticraft;required-after:gregtech;required-after:NotEnoughItems")
 public class GTNEIOrePlugin {
     public static final String MODID = "gtneioreplugin";
-    public static final String NAME = "GT NEI Ore Plugin GT:NH Mod";
+    public static final String NAME = "GT NEI Ore Plugin Pixian revision";
     public static final String VERSION = "@version@";
     public static boolean csv = false;
     public static String CSVname; 
@@ -27,7 +27,7 @@ public class GTNEIOrePlugin {
     public void preinit(FMLPreInitializationEvent event) {
     	Config c = new Config(event, this.MODID+".cfg");
     	csv = c.tConfig.getBoolean("print csv","ALL", false, "princsv, you need apache commons collections to be injected in the minecraft jar.");
-    	CSVname = c.tConfig.getString("CSV_name", "ALL", event.getModConfigurationDirectory()+"/GTNH-Oresheet.csv", "rename the oresheet here, it will appear in /config");
+    	CSVname = c.tConfig.getString("CSV_name", "ALL", event.getModConfigurationDirectory()+"/Pixian-Oresheet.csv", "rename the oresheet here, it will appear in /config");
     	c.save();
     }
     
