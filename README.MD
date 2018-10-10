@@ -8,10 +8,6 @@ These plugins are:
 * Plugin for vein generation (GT5)
 * Plugin for small ore generation (GT5) (Not yet.)
 
-
-### Download  
-You can find the download link [here](https://github.com/bartimaeusnek/GTNEIOrePlugin/releases).  
-
 ### Build
 If you want a bleeding-edge version of this mod, you can simply download or clone this repository, establish a folder named "libs" and put the dev builds:
 CodeChickenCore-1.7.10-1.0.7.47-dev.jar
@@ -21,6 +17,3 @@ NotEnoughItems-1.7.10-1.0.5.120-dev.jar
 in the folder.  
 Then you can build this mod in the same way as building other mods. i.e. run "gradlew build" command in the CMD window. Then the build can be found in "./build/libs/" folder.
 
-### License
-The whole repository is under [MIT](https://github.com/bartimaeusnek/GTNEIOrePlugin/blob/GT-NH-Mod/LICENSE) License.   
-You can feel free to use the mod in your modpacks. If you add my name in your credit list, I'll be super happy with that.
