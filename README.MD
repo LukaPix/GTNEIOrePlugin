@@ -1,3 +1,6 @@
+#Pixian
+This is the revision for the Pixian Modpack.
+
 # GT NEI Ore Plugin
 This minecraft forge mod is an addon for GregTech5 and NEI and is a client-side mod.
 
@@ -6,9 +9,6 @@ These plugins are:
 * Plugin for vein generation (GT5)
 * Plugin for small ore generation (GT5) (Not yet.)
 
-
-### Download  
-You can find the download link [here](https://github.com/bartimaeusnek/GTNEIOrePlugin/releases).  
 
 ### Build
 If you want a bleeding-edge version of this mod, you can simply download or clone this repository, establish a folder named "libs" and put the dev builds:
